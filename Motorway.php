@@ -3,7 +3,7 @@ require_once 'Highway.php';
 
 final class MotorWay extends Highway
 {
-    protected $nbLane = 4;
+    const ALLOWED_NBLANE = 4;
     protected $maxSpeed = 130;
 
     final public function addVehicle($vehicle): void

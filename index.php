@@ -12,24 +12,56 @@ require_once 'Skateboard.php';
 $bike = new Bike('blue', 2);
 $car = new Car('orange', 5, 'electric');
 $skateboard = new Skateboard('black', 0);
-var_dump($bike);
-var_dump($car);
-var_dump($skateboard);
+//var_dump($bike);
+//var_dump($car);
+//var_dump($skateboard);
 
 $tangentielle = new MotorWay([], 4, 130);
 $tangentielle->addVehicle($bike);
 $tangentielle->addVehicle($skateboard);
 $tangentielle->addVehicle($car);
-var_dump($tangentielle);
+//var_dump($tangentielle);
 
 $rue = new ResidentialWay([], 2, 50);
 $rue->addVehicle($bike);
 $rue->addVehicle($skateboard);
 $rue->addVehicle($car);
-var_dump($rue);
+//var_dump($rue);
 
 $petiteRue = new PedestrianWay([],1,10);
 $petiteRue->addVehicle($bike);
 $petiteRue->addVehicle($skateboard);
 $petiteRue->addVehicle($car);
-var_dump($petiteRue);
+//var_dump($petiteRue);
+
+// -------------- POO Basics Part 4 -----------------// ?>
+
+<b>Cas où le frein à main est actif :</b> <br/><br/>
+
+<?php
+$newCar = new Car('yellow', 4, 'electric');
+$newCar->setParkBrake(true);
+try {
+    $newCar->start();
+} catch(Exception $e) {
+    echo "Exception received : " . $e->getMessage() . "<br/>";
+    $newCar->setParkBrake(false);
+} finally {
+    echo "Ma voiture roule comme un donut";
+}
+var_dump($newCar); ?>
+
+
+<b>Cas où le frein à main n'est pas actif :</b> <br/><br/>
+<?php
+$newCar = new Car('yellow', 4, 'electric');
+$newCar->setParkBrake(false);
+try {
+    $newCar->start();
+} catch(Exception $e) {
+    echo "Exception received : " . $e->getMessage() . "<br/>";
+    $newCar->setParkBrake(false);
+} finally {
+    echo "Ma voiture roule comme un donut";
+}
+var_dump($newCar);
