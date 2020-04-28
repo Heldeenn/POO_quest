@@ -8,6 +8,7 @@ require_once 'Vehicle.php';
 require_once 'Car.php';
 require_once 'Bike.php';
 require_once 'Skateboard.php';
+require_once 'Speedometer.php';
 
 $bike = new Bike('blue', 2);
 $car = new Car('orange', 5, 'electric');
@@ -70,3 +71,10 @@ try {
 $bike->setCurrentSpeed(2);
 $bike->switchOn();
 $car->switchOff();
+
+// -------------- POO Basics Part 6 -----------------//
+?>
+<br/><br/><br/><b>POO part 6 :</b><br/>
+<?php
+echo "</br>" . Speedometer::convertKmToMiles(10);
+echo "</br>" . Speedometer::convertMilesToKm(10);
