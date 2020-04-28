@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f814fb72-b4ab-4ccd-ad77-338cf46771ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bike.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bike.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Motorway.php" beforeDir="false" afterPath="$PROJECT_DIR$/Motorway.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,13 +22,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../POO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,18 +42,29 @@
       <updated>1586099653041</updated>
       <workItem from="1586099654353" duration="4647000" />
       <workItem from="1586160151785" duration="2665000" />
-      <workItem from="1586620442410" duration="3514000" />
+      <workItem from="1586620442410" duration="3861000" />
+      <workItem from="1586692475536" duration="20000" />
+      <workItem from="1587042562129" duration="1083000" />
+      <workItem from="1588065891284" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="797" y="283" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586621239764">
+    <state x="797" y="283" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587044261887">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="797" y="283" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1586621239764" />
+    <state x="797" y="283" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1587044261887" />
     <state x="797" y="283" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1586168159875" />
+    <state x="446" y="147" key="SettingsEditor" timestamp="1587042983552">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="446" y="147" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1587042983552" />
+    <state x="632" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1586692476331">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="632" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1586692476331" />
   </component>
 </project>

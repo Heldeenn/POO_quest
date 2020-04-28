@@ -49,7 +49,7 @@ try {
 } finally {
     echo "Ma voiture roule comme un donut";
 }
-var_dump($newCar); ?>
+//var_dump($newCar); ?>
 
 
 <b>Cas où le frein à main n'est pas actif :</b> <br/><br/>
@@ -64,4 +64,9 @@ try {
 } finally {
     echo "Ma voiture roule comme un donut";
 }
-var_dump($newCar);
+//var_dump($newCar);
+
+// -------------- POO Basics Part 5 -----------------//
+$bike->setCurrentSpeed(2);
+$bike->switchOn();
+$car->switchOff();
